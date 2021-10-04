@@ -6,6 +6,7 @@ There are 2 types of query operations that can be performed on a tree:
 
 1 u x: Assign x as the value of node u.
 2 u v: Print the sum of the node values in the unique path from node u to node v.
+
 Given a tree with N nodes where each node's value is initially 0, execute Q queries.
 
 Input Format:
