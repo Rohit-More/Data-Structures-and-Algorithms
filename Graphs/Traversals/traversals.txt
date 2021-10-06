@@ -1,0 +1,39 @@
+Binary tree traversal can be done in the following ways.
+
+-> Inorder traversal
+-> Preorder traversal
+-> Postorder traversal
+
+Inorder Traversal: For binary search trees (BST), Inorder Traversal specifies the nodes 
+                   in non-descending order. In order to obtain nodes from BST in 
+                   non-increasing order, a variation of inorder traversal may be 
+                   used where inorder traversal is reversed.
+
+Preorder Traversal: Preorder traversal will create a copy of the tree. 
+                    Preorder Traversal is also used to get the prefix expression of an expression.
+
+Postorder Traversal: Postorder traversal is used to get the postfix expression of an expression given
+
+ 
+---------- * Algorithm for binary tree traversal * ---------------
+
+
+*** Inorder(root)
+
+Traverse the left sub-tree, (recursively call inorder(root -> left).
+Visit and print the root node.
+Traverse the right sub-tree, (recursively call inorder(root -> right).
+
+
+*** Preorder(root)
+
+Visit and print the root node.
+Traverse the left sub-tree, (recursively call inorder(root -> left).
+Traverse the right sub-tree, (recursively call inorder(root -> right).
+
+
+*** Postorder(root)
+
+Traverse the left sub-tree, (recursively call inorder(root -> left).
+Traverse the right sub-tree, (recursively call inorder(root -> right).
+Visit and print the root node.
